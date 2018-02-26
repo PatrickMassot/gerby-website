@@ -35,8 +35,8 @@ script:
   - cd ../WEB
   - plastex --renderer=Gerby book.tex
   - cd ..
-  - cd gerby/tools
-  - cp ../../../WEB/book stacks
-  - cp ../../../WEB/book.paux stacks.paux
-  - cp ../../../WEB/tags stacks.tags
+  - cd gerby-website/gerby/tools
+  - ln -s ../../../WEB/book stacks
+  - ln -s ../../../WEB/book.paux stacks.paux
+  - ln -s ../../../WEB/tags stacks.tags
   - python update.py --noSearch --noTagStats
