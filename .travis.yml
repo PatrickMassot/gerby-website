@@ -25,6 +25,7 @@ install:
   - cp jquery-bonsai/jquery.bonsai.css css/
   - cd ../..
   - pip install .
+  - cd ..
 
 script: 
   - mkdir WEB
