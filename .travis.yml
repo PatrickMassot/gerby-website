@@ -39,4 +39,4 @@ script:
   - ln -s ../../../WEB/book stacks
   - ln -s ../../../WEB/book.paux stacks.paux
   - ln -s ../../../WEB/tags stacks.tags
-  - python update.py --noSearch --noTagStats
+  - python update.py
