@@ -30,7 +30,7 @@ install:
 script: 
   - mkdir WEB
   - cd stacks-project
-  - echo y | python2 scripts/add_tags.py
+  - echo yes | python2 scripts/add_tags.py
   - make web
   - cd ../WEB
   - plastex --renderer=Gerby book.tex
